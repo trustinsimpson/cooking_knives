@@ -1,0 +1,320 @@
+﻿html, body {
+	margin: auto 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-size: 62.5%;
+	padding: 0 !important;
+}
+
+hr {
+	border-color: white;
+	height: 3px;
+	max-width: 200px;
+}
+
+/*First page title*/
+#titles {
+	font-size: 4rem;
+	font-family: 'Bitter', serif;
+	padding: 10px;
+	max-width: 75%;
+	margin: 0 auto;
+	color: white;
+	bottom: 3rem;
+}
+
+/*Linked buttons on homepage and home button on sub-pages*/
+a {
+	font-size: 2rem;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 0px;
+	font-weight: bold;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	transition: all 500ms;
+	top: 3rem;
+}
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+.home {
+	display: flex;
+	padding: 10px;
+}
+
+.resize {
+	width: 5rem;
+	height: auto;
+}
+
+/*Dopdown button on homepage and on sub-pages*/
+button {
+	font-size: 2rem;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.0);
+	font-family: 'Bitter', serif;
+	color: white;
+	transition: all 500ms;
+}
+
+	button:hover {
+		color: white;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.5);
+		transition: 750ms;
+		outline: none;
+	}
+
+	button:focus {
+		outline: none;
+	}
+
+.dropbtn {
+	cursor: pointer;
+}
+
+	.dropbtn:hover, .dropbtn:focus {
+		color: white;
+		outline: none;
+	}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: -4.3rem;
+	background-color: rgba(0, 0, 0, 0.0);
+	min-width: 170px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
+	z-index: 1;
+}
+
+	.dropdown-content a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		font-size: 2rem;
+		margin: 10px;
+		padding: 5px;
+		border-radius: 10px;
+		border: 0px;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.0);
+		font-family: 'Bitter', serif;
+	}
+
+		.dropdown-content a:hover {
+			background-color: rgba(0,0,0, 0.80);
+			transition: all 750ms;
+		}
+
+.dropdown2 {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content2 {
+	display: none;
+	position: absolute;
+	right: -4.3rem;
+	background-color: rgba(0, 0, 0, 0.0);
+	min-width: 170px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
+	z-index: 1;
+}
+
+	.dropdown-content2 a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		font-size: 2rem;
+		margin: 10px;
+		padding: 5px;
+		border-radius: 10px;
+		border: 0px;
+		font-weight: bold;
+		background-color: rgba(0, 0, 0, 0.0);
+		font-family: 'Bitter', serif;
+	}
+
+		.dropdown-content2 a:hover {
+			background-color: rgba(0,0,0, 0.80);
+			transition: all 750ms;
+		}
+
+.show {
+	display: block;
+}
+
+
+#b1 {
+	height: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#tit {
+	font-size: 6rem;
+	font-family: 'stencil', arial;
+	font-style: italic;
+	padding: 10px;
+	max-width: 100%;
+	margin: 0 auto;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.0);
+	transition: all 500ms;
+}
+
+	#tit:hover {
+		padding: 0 20px 0 7px;
+		color: white;
+		text-decoration: none;
+		background-color: rgba(0, 0, 0, 0.5);
+		transition: 750ms;
+		outline: none;
+	}
+
+	#tit:focus {
+		outline: none;
+	}
+
+/*Layout*/
+#pg1 {
+	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("assets/pg1.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+section {
+	height: 100%;
+	width: 100%;
+}
+
+#bcbg {
+	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("assets/bcknife.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#ucbg {
+	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("assets/upchef.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#pbg {
+	background: linear-gradient( rgba(0,0,0,0.533), rgba(0,0,0,0.533)), url("assets/paring.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#uubg {
+	background: linear-gradient( rgba(0,0,0,0.486), rgba(0,0,0,0.486)), url("assets/upu.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#bubg {
+	background: linear-gradient( rgba(0,0,0,0.525), rgba(0,0,0,0.525)), url("assets/bu.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*Sub-page dropdown content*/
+.card-body {
+	padding: 3rem;
+	font-size: 2rem;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: 750ms;
+	outline: none;
+	display: grid;
+	bottom: 20rem;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 768px) {
+	p, li {
+		font-size: 1.5rem;
+	}
+	.card-body {
+		bottom: 28rem;
+	}
+	#card1 {
+		bottom: 24rem;
+	}
+}
+
+@media only screen and (max-width: 415px), only screen and (max-height: 750px) {
+	#tit {
+		font-size: 5rem;
+		position: absolute;
+			bottom: 25rem;
+	}
+
+	.card-body {
+		bottom: 25rem;
+	}
+
+	#card1 {
+		bottom: 23rem;
+	}
+}
+
