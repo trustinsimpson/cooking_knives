@@ -274,18 +274,22 @@ section {
 
 
 /*Sub-page dropdown content*/
+
+
 .card-body {
 	padding: 3rem;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	color: white;
 	text-decoration: none;
 	background-color: rgba(0, 0, 0, 0.5);
 	transition: 750ms;
 	outline: none;
 	display: grid;
-	bottom: 20rem;
+	bottom: 16rem;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 1fr 1fr;
+	
+	overflow-y: show;
 }
 
 /*Mobile*/
@@ -297,8 +301,14 @@ section {
 	.card-body {
 		bottom: 28rem;
 	}
-	#card1 {
+	/* #card1 {
 		bottom: 24rem;
+	} */
+}
+
+@media only screen and (max-width: 768px), only screen and (max-height: 1030px) {
+	.card-body {
+		bottom: 10rem;
 	}
 }
 
